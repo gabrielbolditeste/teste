@@ -1,0 +1,47 @@
+{
+  "name": "sistema-de-controle-de-servico-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "compile": "tsc",
+    "build": "npm run compile",
+    "start": "node ./dist/index.js",
+    "dev": "npm run compile && node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GABRIELBOLDIVEIGA/Sistema-de-Controle-de-Servico-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GABRIELBOLDIVEIGA/Sistema-de-Controle-de-Servico-API/issues"
+  },
+  "homepage": "https://github.com/GABRIELBOLDIVEIGA/Sistema-de-Controle-de-Servico-API#readme",
+  "dependencies": {
+    "@apollo/datasource-rest": "^6.0.1",
+    "@apollo/server": "^4.7.5",
+    "@graphql-tools/schema": "^10.0.0",
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.3.1",
+    "graphql": "^16.7.1",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.3.1",
+    "mongoose-autopopulate": "^1.0.1",
+    "nodemailer": "^6.9.4",
+    "validator": "^13.9.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.2",
+    "@types/node": "^20.3.3",
+    "@types/validator": "^13.7.17",
+    "@typescript-eslint/eslint-plugin": "^5.61.0",
+    "@typescript-eslint/parser": "^5.61.0",
+    "eslint": "^8.44.0",
+    "typescript": "^5.1.6"
+  }
+}
